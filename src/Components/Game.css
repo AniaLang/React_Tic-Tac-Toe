@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.playground {
+    display: flex;
+    flex-direction: row;
+}
+.squares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: #282c34;
+    border-bottom: 0;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+  }
+
+.custome-Xstyle {
+    height: 40px;
+    align-content: center;
+    color: black;
+}
+
+.custome-Ostyle {
+    height: 30px;
+    align-content: center;
+    color: black;
+}
