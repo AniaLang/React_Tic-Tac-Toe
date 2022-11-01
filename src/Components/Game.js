@@ -46,6 +46,7 @@ function Game() {
       states[id] = SqrState.XMARK
     }
     setStates({ ...states })
+    setCurrentPlayer(currentPlayer === 1 ? 2 : 1)
   }
 
   return (
