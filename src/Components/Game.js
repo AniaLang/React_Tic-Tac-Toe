@@ -40,6 +40,9 @@ function Game() {
   }
 
   const handleClick = id => {
+    if (states[id] !== SqrState.EMPTY) {
+      return
+    }
     if (currentPlayer === 1) {
       states[id] = SqrState.CIRCLE
     } else {
